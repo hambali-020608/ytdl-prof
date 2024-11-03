@@ -1,5 +1,6 @@
 import HeaderFormat from "../component/Header";
-import '../App.css'
+import { Fragment } from "react";
+'../app/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Layout({format,children}){
