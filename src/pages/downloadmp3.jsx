@@ -36,7 +36,7 @@ function Downloadmp3() {
 
     return (
         <div className="position-relative" style={{ top: '3rem' }}>
-            <Layout format="mp4">
+            <Layout format="mp3">
                 <input type="text" className="form-control me-2" placeholder="Search..." value={url} onChange={handleInput} />
                 <button className="btn btn-primary" type="button" onClick={download}>Search</button>
             </Layout>
